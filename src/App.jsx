@@ -10,30 +10,35 @@ function App() {
       <Hero />
       <Sections />
 
-      {/* Placeholder anchors for sections */}
+      {/* Slim intro sections kept for SEO and anchor targets */}
       <section id="slipcovers" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
         <h2 className="text-2xl font-bold">Slipcovers</h2>
-        <p className="mt-2 text-slate-600">Custom-fitted slipcovers tailored to your furniture and lifestyle. Durable, washable, and made with care.</p>
+        <p className="mt-2 text-slate-600">Custom-fitted slipcovers tailored to your furniture and lifestyle. Durable, washable, and made with care. Learn more on our dedicated page.</p>
+        <a href="/slipcovers" className="mt-3 inline-block text-amber-700 font-medium">Explore Slipcovers →</a>
       </section>
 
       <section id="upholstery" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
         <h2 className="text-2xl font-bold">Upholstery</h2>
         <p className="mt-2 text-slate-600">Refresh or restore your favorite pieces with expert upholstery services.</p>
+        <a href="/upholstery" className="mt-3 inline-block text-amber-700 font-medium">Explore Upholstery →</a>
       </section>
 
       <section id="about" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
         <h2 className="text-2xl font-bold">About</h2>
         <p className="mt-2 text-slate-600">We’re a family business working in New York homes for over two decades. Friendly service, meticulous work.</p>
+        <a href="/about" className="mt-3 inline-block text-amber-700 font-medium">Our Story →</a>
       </section>
 
       <section id="gallery" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
         <h2 className="text-2xl font-bold">Gallery</h2>
-        <p className="mt-2 text-slate-600">A look at recent projects and transformations. Coming soon.</p>
+        <p className="mt-2 text-slate-600">A look at recent projects and transformations.</p>
+        <a href="/gallery" className="mt-3 inline-block text-amber-700 font-medium">See Photos →</a>
       </section>
 
       <section id="blog" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
         <h2 className="text-2xl font-bold">Blog</h2>
-        <p className="mt-2 text-slate-600">Tips on fabrics, maintenance, and styling. Coming soon.</p>
+        <p className="mt-2 text-slate-600">Tips on fabrics, maintenance, and styling.</p>
+        <a href="/blog" className="mt-3 inline-block text-amber-700 font-medium">Read Posts →</a>
       </section>
 
       <CTA />
